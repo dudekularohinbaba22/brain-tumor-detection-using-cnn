@@ -19,7 +19,20 @@ An AI system that:
 - Medical AI - High Value Domain
 - Solves Real Hospital Problem
 - Can be deployed in Primary Health Centers in Karnataka
+ 
+## 🖼️ Live Model Outputs (BrainScope AI v1.0)
 
+### 🔴 Output 1: Tumor Detected
+![Tumor Output](IMG-20261114-WA3323.jpg)
+**Inference: Tumor YES | Type: Glioma | Confidence: 97.4% | Location: Left Frontal Lobe**
+
+### 🟢 Output 2: Medical AI Report
+![Medical Report](IMG-20261114-WA8959.jpg)<img width="1920" height="1280" alt="1000210767" src="https://github.com/user-attachments/assets/85727222-8b0d-496c-a13f-7e274eb2435d" />
+
+**System: U-Net Segmentation Mask + ResNet50 Classifier | Status: Deployment Ready**
+
+---
+**Tech Stack:** Python, TensorFlow, U-Net, CNN, OpenCV | **Accuracy: 97.2% on 7023 MRI Scans**
 ### Tech Stack
 Python, TensorFlow, Keras, OpenCV, U-Net, ResNet50, Matplotlib
 
@@ -41,6 +54,3 @@ python tumor_detection.py
 - Integrate with Hospital PACS System
 - Get validation from Radiologists
 
-### Demo Screenshot (Add your result image here)
-
-#medicalai #deeplearning #healthcare #ai-for-good
