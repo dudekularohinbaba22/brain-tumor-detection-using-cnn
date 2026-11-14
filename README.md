@@ -26,8 +26,10 @@ An AI system that:
 ![Tumor Output](IMG-20261114-WA3323.jpg)
 **Inference: Tumor YES | Type: Glioma | Confidence: 97.4% | Location: Left Frontal Lobe**
 
-### 🟢 Output 2: Medical AI Report
-![Medical Report](IMG-20261114-WA8959.jpg)<img width="1920" height="1280" alt="1000210767" src="https://github.com/user-attachments/assets/85727222-8b0d-496c-a13f-7e274eb2435d" />
+🟢 Output 2: Medical AI Report
+![Medical Report](IMG-20261114-WA8959.jpg)
+
+System: U-Net...
 
 **System: U-Net Segmentation Mask + ResNet50 Classifier | Status: Deployment Ready**
 
